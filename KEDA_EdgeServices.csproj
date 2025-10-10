@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicExpresso.Core" Version="2.19.2" />
+    <PackageReference Include="HslCommunication" Version="12.0.3" />
+    <PackageReference Include="lib60870.NET" Version="2.2.0" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <PackageReference Include="OpcUaHelper" Version="2.2.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+	</ItemGroup>
+  <ItemGroup>
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HslControls">
+      <HintPath>C:\Users\25771\Desktop\HslControls.dll</HintPath>
+    </Reference>
+    <Reference Include="HslDesign">
+      <HintPath>C:\Users\25771\Desktop\HslDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing">
+      <HintPath>C:\Users\25771\Desktop\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation">
+      <HintPath>C:\Users\25771\Desktop\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
