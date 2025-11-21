@@ -23,5 +23,7 @@ public enum LanProtocolType
     FJ1000Jet,
     FJ60W,
     MySql,
-    GP1125T
+    GP1125T,
+    BottomImageF1970,
+    S71200Tag,
 }
